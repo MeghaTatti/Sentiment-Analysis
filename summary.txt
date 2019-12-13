@@ -1,0 +1,35 @@
+Number of Twitter users collected:
+ 
+ 
+There are 5 twitter users collected.
+ABdeVilliers17 has 260 friends.
+KDTrey5 has 1438 friends.
+StephenCurry30 has 752 friends.
+imVkohli has 52 friends.
+narendramodi has 2156 friends.
+
+Number of tweets collected: 100 
+
+For Sentiment analysis, we took these 100 tweets and processed 
+ 
+Number of communities discovered: 2 
+We cluster all initial users and their friends in to different communities and exclude users that followed by less than two initial users and outliers.
+ Outliers are those points that clustered as singleton.
+Average number of users per community: 19
+
+Number of instances per class found:
+ 
+There are three classes for sentiment analysis.
+The positive class has 69 instances
+The negative class has 4 instances
+The neutral class has 27 instances
+ 
+ 
+Examples:
+ 
+Positive class:
+b'RT @warriors: #SPLASH\xf0\x9f\x92\xa6 \n\nIn celebration of @StephenCurry30 becoming the only player in league history to reach 400 career #NBAPlayoffs thre\xe2\x80\xa6'
+Negative class:
+RT @DaAnsahonSports: I know curry and dame can make ridiculous shots . But when that defense get tougher . Bad shots are bad shots . Bad ha…
+Neutral class:
+Shoutout to @StephenCurry30 as I have this “diligent” student who wrote about it in his Word of the Day poem and sp… https://t.co/5XdROxQUEG
